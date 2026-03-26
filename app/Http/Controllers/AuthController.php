@@ -9,7 +9,7 @@ class AuthController extends Controller
     // halaman login
     public function login()
     {
-        // kalau sudah login → ke dashboard
+        // kalau sudah login ke dashboard
         if (session('login')) {
             return redirect('/dashboard');
         }
